@@ -4,12 +4,18 @@
     background-color: lightslategrey;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
-    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.rightside{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
 }
 
 .linkDesign {
-
     font-weight: bold;
     margin-right: 3em;
     margin-bottom: 3em;
@@ -23,4 +29,25 @@
     color: greenyellow;
 
     transition: 0.5s;
+}
+
+.leftside{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3.5em;
+    color: yellowgreen;
+}
+
+.appName{
+    font-size: xx-large;
+    font-weight:500;
+    text-decoration:underline;
+    margin-left: 1em;
+}
+
+.logo{
+    width: 4em;
+    height: auto;
 }

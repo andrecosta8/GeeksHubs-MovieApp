@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import MovieDetail from "../../components/MovieDetail/MovieDetail";
 import { getPopularMovies } from "../../services/apiCalls";
 import "./Home.css";
+// import loader from '../../images/load.gif'
 
 const Home = () => {
   const [movies, setMovies] = useState([]);
@@ -29,7 +30,6 @@ const Home = () => {
               <div className="movieCard" key={movie.id}>
                 <div onClick={() => selectMovie(movie)}><img className="movieSmallImage" src={`https://image.tmdb.org/t/p/original${movie.poster_path}`} alt={movie.title}/></div>
                 <div >{movie.title}</div>
-                <div>{movie.vote_average}</div>
               </div>
             );
           })}
@@ -43,7 +43,9 @@ const Home = () => {
       </div>
     );
   } else {
-    return <div className="homeLoadingDesign">LOADING....</div>;
+    return <div className="homeLoadingDesign">
+        Loading...
+    </div>;
   }
 };
 

@@ -11,8 +11,14 @@
 
 .movieCard{
     width: 12em;
+    margin-top: 0.5em;
 }
 
+.movieCard:hover{
+
+    transition: 0.7s;
+    box-shadow: rgba(42, 48, 226, 0.663) 0px 1px 2px, rgb(51, 51, 51) 0px 5px 5px 5px;
+}
 .leftSide{
     margin-top: 1em;
     width: 65vw;
@@ -22,6 +28,7 @@
     justify-content: center;
     background-color: lightblue; 
     overflow-y: scroll;  
+    cursor:pointer;
 }
 
 .rightSide{
