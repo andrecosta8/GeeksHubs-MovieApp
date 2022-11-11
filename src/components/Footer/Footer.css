@@ -1,0 +1,20 @@
+.footerDesign {
+
+    height: 5vh;
+
+    width: 100vw;
+
+    background-color: lightblue;
+
+    display: flex;
+
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+
+    position:absolute;
+    left:0;
+    bottom:0;
+    right:0;
+}

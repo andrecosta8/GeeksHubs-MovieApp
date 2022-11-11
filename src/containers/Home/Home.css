@@ -1,0 +1,30 @@
+.homePage {
+    display: flex;
+    flex-direction: row;
+    height: 85vh;
+    background-color: lightblue;
+}
+
+.movieSmallImage{
+    width: 10em; 
+}
+
+.movieCard{
+    width: 12em;
+}
+
+.leftSide{
+    margin-top: 1em;
+    width: 65vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: lightblue; 
+    overflow-y: scroll;  
+}
+
+.rightSide{
+    width: 35vw;
+    background-color: lightslategrey;
+}
