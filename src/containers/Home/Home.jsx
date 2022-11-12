@@ -11,7 +11,6 @@ const Home = () => {
   useEffect(() => {
     async function fecthData() {
       let response = await getPopularMovies();
-      console.log(response.data.results);
       setMovies(response.data.results);
     }
     fecthData();
