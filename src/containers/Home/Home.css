@@ -35,5 +35,6 @@
 .rightSide{
     width: 35vw;
     background-color: lightslategrey;
-    overflow-y: scroll;  
+    overflow-y: scroll; 
+    padding-bottom: 1em; 
 }
