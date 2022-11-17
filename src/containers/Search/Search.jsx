@@ -26,12 +26,6 @@ useEffect(()=>{
 fecthData()
 },[searchInput])
 
-// const fecthData = async (e) => {
-//     e.preventDefault()
-//     let response = await getSearchedMovies(searchInput);
-//     let results = response.data.results
-//     setMovies(results)
-// }
 
   const selectMovie = (movie) => {
     setSelected(movie);
